@@ -1,0 +1,27 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 8px;
+}
+
+@media (max-width: 1000px) {
+  .scrollbar-hide::-webkit-scrollbar {
+    height: 8px; 
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar-thumb {
+    background-color: #4A5568; 
+    border-radius: 10px; 
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar-track {
+    background-color: #E2E8F0; 
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar-thumb:hover {
+    background-color: #2D3748; 
+  }
+}
